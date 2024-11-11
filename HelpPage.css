@@ -1,0 +1,70 @@
+/* src/styles/HelpPage.css */
+.help-page {
+  padding: 20px;
+  padding-top: 60px; /* Adjust this value as needed */
+  position: relative;
+  font-family: Arial, sans-serif;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.help-section{
+  padding-top: 160px;
+  padding-bottom: 0;
+} 
+
+
+.nav-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.nav-box h2 {
+  margin-top: 0;
+}
+
+.nav-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-box li {
+  margin-bottom: 10px;
+}
+
+.nav-box a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.nav-box a:hover {
+  text-decoration: underline;
+}
+
+.help-section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
