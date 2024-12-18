@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useContext } from 'react';
 import { useNavigate, useLocation, Link, useMatch, useResolvedPath, Outlet } from 'react-router-dom';
 import axios from 'axios';
 import './Dashboard.css';
-import zemen_icon from '../Assets/Z logo White (1).png';
+import icon from '../Assets/logo White (1).png';
 import home_icon from '../Assets/home_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.png';
 import para_icon from '../Assets/parameter.png';
 import user_icon from '../Assets/UserManagement.png';
@@ -118,7 +118,7 @@ function Dashboard() {
         <div className="hamburger" onClick={toggleSidebar}>
           &#9776;
         </div>
-        <img src={zemen_icon} alt="Logo" />
+        <img src={icon} alt="Logo" />
         <h2 className='Alert'></h2><h1>Z-Alert</h1>
         <div className={`profile-container ${open ? 'open' : ''} `} >
           <img
